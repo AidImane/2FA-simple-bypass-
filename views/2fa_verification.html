@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2FA Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Two-Factor Authentication</h2>
+        <p>Enter the 2-digit code sent to your email.</p>
+        <form action="\verify_2fa" method="POST">
+            <div class="input-group">
+                <label for="code">Verification Code</label>
+                <input type="text" id="code" name="code" maxlength="2" placeholder="">
+            </div>
+            <button type="submit">Verify</button>
+        </form>
+        <p class="link"><a href="\resend">Resend Code</a></p>
+    </div>
+</body>
+</html>

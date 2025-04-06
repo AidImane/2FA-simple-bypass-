@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "mohamed",
+      "email": "aidimen95@gmail.com",
+      "password": "125"
+    },
+    {
+      "id": 2,
+      "username": "amina",
+      "email": "aidimen95@gmail.com",
+      "password": "147"
+    },
+    {
+      "id": 3,
+      "username": "amin",
+      "email": "aidimen95@gmail.com",
+      "password": "125"
+    },
+    {
+      "id": 4,
+      "username": "ahmed",
+      "email": "aidimen95@gmail.com",
+      "password": "125"
+    }
+  ],
+  "nextId": 5
+}
